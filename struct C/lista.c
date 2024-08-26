@@ -9,7 +9,7 @@ typedef struct lista
     float nota;
 }aluno;
 
-int mais(){
+int main(){
 
     aluno ed[4];
     aluno java[3];
@@ -25,7 +25,7 @@ int mais(){
         getchar();
 
         printf("\n Digite o nome do %d aluno",i+1);
-        gets(ed[i].nome)
+        gets(ed[i].nome);
     }
     printf("\n Turma de java");
     for(int i=0;i,3;i++){
@@ -38,7 +38,7 @@ int mais(){
         getchar();
 
         printf("\n Digite o nome do %d aluno",i+1);
-        gets(java[i].nome)
+        gets(java[i].nome);
     }
 
     for(int i=0; i<4;i++){
